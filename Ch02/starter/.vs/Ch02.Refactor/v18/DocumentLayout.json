@@ -1,0 +1,673 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\domain\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\domain\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\domain\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\domain\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\domain\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\domain\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B2C34B-91AD-47F2-B17C-FD4F699B949C}|Ch02.Refactor.Tests\\Ch02.Refactor.Tests.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor.tests\\domain\\eventtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B2C34B-91AD-47F2-B17C-FD4F699B949C}|Ch02.Refactor.Tests\\Ch02.Refactor.Tests.csproj|solutionrelative:ch02.refactor.tests\\domain\\eventtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B2C34B-91AD-47F2-B17C-FD4F699B949C}|Ch02.Refactor.Tests\\Ch02.Refactor.Tests.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor.tests\\patterns\\patterntests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B2C34B-91AD-47F2-B17C-FD4F699B949C}|Ch02.Refactor.Tests\\Ch02.Refactor.Tests.csproj|solutionrelative:ch02.refactor.tests\\patterns\\patterntests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B2C34B-91AD-47F2-B17C-FD4F699B949C}|Ch02.Refactor.Tests\\Ch02.Refactor.Tests.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor.tests\\domain\\clubtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B2C34B-91AD-47F2-B17C-FD4F699B949C}|Ch02.Refactor.Tests\\Ch02.Refactor.Tests.csproj|solutionrelative:ch02.refactor.tests\\domain\\clubtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\clubmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\clubmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B2C34B-91AD-47F2-B17C-FD4F699B949C}|Ch02.Refactor.Tests\\Ch02.Refactor.Tests.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor.tests\\ch02.refactor.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A0B2C34B-91AD-47F2-B17C-FD4F699B949C}|Ch02.Refactor.Tests\\Ch02.Refactor.Tests.csproj|solutionrelative:ch02.refactor.tests\\ch02.refactor.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\services\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\services\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\services\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\services\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\patterns\\strategies\\ireportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\patterns\\strategies\\ireportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\patterns\\strategies\\csvreportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\patterns\\strategies\\csvreportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\patterns\\strategies\\consolereportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\patterns\\strategies\\consolereportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\patterns\\strategies\\clubstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\patterns\\strategies\\clubstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\patterns\\observers\\lognotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\patterns\\observers\\lognotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\patterns\\observers\\ieventobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\patterns\\observers\\ieventobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\patterns\\observers\\emailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\patterns\\observers\\emailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\services\\clubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\services\\clubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\services\\iclubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\services\\iclubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\notifications\\smsnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\notifications\\smsnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\notifications\\slacknotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\notifications\\slacknotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\notifications\\notificationservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\notifications\\notificationservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\notifications\\emailnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\notifications\\emailnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\notifications\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\notifications\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\notifications\\inotificationservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\notifications\\inotificationservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\notifications\\notificationchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\notifications\\notificationchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\repositories\\loggingclubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\repositories\\loggingclubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\logging\\iapplogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\logging\\iapplogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\logging\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\logging\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\logging\\consolelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\logging\\consolelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\repositories\\inmemorymemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\repositories\\inmemorymemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\repositories\\inmemoryeventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\repositories\\inmemoryeventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\repositories\\inmemoryclubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\repositories\\inmemoryclubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\repositories\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\repositories\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\repositories\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\repositories\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\repositories\\iclubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\repositories\\iclubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|d:\\hoctap\\hdt\\in4211-ch02-solid-patterns-git\\starter\\starter\\ch02.refactor\\docs\\solid-analysis.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}|Ch02.Refactor\\Ch02.Refactor.csproj|solutionrelative:ch02.refactor\\docs\\solid-analysis.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 39,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PatternTests.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor.Tests\\Patterns\\PatternTests.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor.Tests\\Patterns\\PatternTests.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor.Tests\\Patterns\\PatternTests.cs",
+              "RelativeToolTip": "Ch02.Refactor.Tests\\Patterns\\PatternTests.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAcwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:46:09.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventTests.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor.Tests\\Domain\\EventTests.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor.Tests\\Domain\\EventTests.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor.Tests\\Domain\\EventTests.cs",
+              "RelativeToolTip": "Ch02.Refactor.Tests\\Domain\\EventTests.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAswA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:45:04.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClubTests.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor.Tests\\Domain\\ClubTests.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor.Tests\\Domain\\ClubTests.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor.Tests\\Domain\\ClubTests.cs",
+              "RelativeToolTip": "Ch02.Refactor.Tests\\Domain\\ClubTests.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAA/wEEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:43:57.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ch02.Refactor.Tests.csproj",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor.Tests\\Ch02.Refactor.Tests.csproj",
+              "RelativeDocumentMoniker": "Ch02.Refactor.Tests\\Ch02.Refactor.Tests.csproj",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor.Tests\\Ch02.Refactor.Tests.csproj",
+              "RelativeToolTip": "Ch02.Refactor.Tests\\Ch02.Refactor.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-15T09:31:15.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Services\\ReportService.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Services\\ReportService.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Services\\ReportService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:26:24.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Services\\IReportService.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Services\\IReportService.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Services\\IReportService.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Services\\IReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:25:31.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEventService.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Services\\IEventService.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Services\\IEventService.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Services\\IEventService.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Services\\IEventService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:24:54.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IReportStrategy.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Patterns\\Strategies\\IReportStrategy.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Patterns\\Strategies\\IReportStrategy.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Patterns\\Strategies\\IReportStrategy.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Patterns\\Strategies\\IReportStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:23:54.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CsvReportStrategy.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Patterns\\Strategies\\CsvReportStrategy.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Patterns\\Strategies\\CsvReportStrategy.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Patterns\\Strategies\\CsvReportStrategy.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Patterns\\Strategies\\CsvReportStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:23:28.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConsoleReportStrategy.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Patterns\\Strategies\\ConsoleReportStrategy.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Patterns\\Strategies\\ConsoleReportStrategy.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Patterns\\Strategies\\ConsoleReportStrategy.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Patterns\\Strategies\\ConsoleReportStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:22:49.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClubStat.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Patterns\\Strategies\\ClubStat.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Patterns\\Strategies\\ClubStat.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Patterns\\Strategies\\ClubStat.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Patterns\\Strategies\\ClubStat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:22:19.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LogNotifier.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Patterns\\Observers\\LogNotifier.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Patterns\\Observers\\LogNotifier.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Patterns\\Observers\\LogNotifier.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Patterns\\Observers\\LogNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:20:30.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IEventObserver.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Patterns\\Observers\\IEventObserver.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Patterns\\Observers\\IEventObserver.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Patterns\\Observers\\IEventObserver.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Patterns\\Observers\\IEventObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:19:32.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmailNotifier.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Patterns\\Observers\\EmailNotifier.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Patterns\\Observers\\EmailNotifier.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Patterns\\Observers\\EmailNotifier.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Patterns\\Observers\\EmailNotifier.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:18:33.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Services\\EventService.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Services\\EventService.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Services\\EventService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:16:23.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IClubService.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Services\\IClubService.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Services\\IClubService.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Services\\IClubService.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Services\\IClubService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:15:18.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ClubService.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Services\\ClubService.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Services\\ClubService.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Services\\ClubService.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Services\\ClubService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:13:31.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SmsNotificationService.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Notifications\\SmsNotificationService.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Notifications\\SmsNotificationService.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Notifications\\SmsNotificationService.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Notifications\\SmsNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:08:46.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SlackNotificationService.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Notifications\\SlackNotificationService.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Notifications\\SlackNotificationService.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Notifications\\SlackNotificationService.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Notifications\\SlackNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:07:35.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NotificationServiceFactory.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Notifications\\NotificationServiceFactory.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Notifications\\NotificationServiceFactory.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Notifications\\NotificationServiceFactory.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Notifications\\NotificationServiceFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:05:53.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EmailNotificationService.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Notifications\\EmailNotificationService.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Notifications\\EmailNotificationService.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Notifications\\EmailNotificationService.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Notifications\\EmailNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:02:41.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Notifications\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Notifications\\INotificationService.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Notifications\\INotificationService.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Notifications\\INotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:01:38.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "INotificationServiceFactory.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Notifications\\INotificationServiceFactory.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Notifications\\INotificationServiceFactory.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Notifications\\INotificationServiceFactory.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Notifications\\INotificationServiceFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:00:23.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NotificationChannel.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Notifications\\NotificationChannel.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Notifications\\NotificationChannel.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Notifications\\NotificationChannel.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Notifications\\NotificationChannel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:57:44.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FileLogger.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Logging\\FileLogger.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Logging\\FileLogger.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Logging\\FileLogger.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Logging\\FileLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:52:11.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IAppLogger.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Logging\\IAppLogger.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Logging\\IAppLogger.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Logging\\IAppLogger.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Logging\\IAppLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:51:23.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ConsoleLogger.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Logging\\ConsoleLogger.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Logging\\ConsoleLogger.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Logging\\ConsoleLogger.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Logging\\ConsoleLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:50:20.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoggingClubRepository.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Repositories\\LoggingClubRepository.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Repositories\\LoggingClubRepository.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Repositories\\LoggingClubRepository.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Repositories\\LoggingClubRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwBgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:44:12.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "InMemoryMemberRepository.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Repositories\\InMemoryMemberRepository.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Repositories\\InMemoryMemberRepository.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Repositories\\InMemoryMemberRepository.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Repositories\\InMemoryMemberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:43:15.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "InMemoryEventRepository.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Repositories\\InMemoryEventRepository.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Repositories\\InMemoryEventRepository.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Repositories\\InMemoryEventRepository.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Repositories\\InMemoryEventRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:41:42.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "InMemoryClubRepository.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Repositories\\InMemoryClubRepository.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Repositories\\InMemoryClubRepository.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Repositories\\InMemoryClubRepository.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Repositories\\InMemoryClubRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:39:45.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IMemberRepository.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Repositories\\IMemberRepository.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Repositories\\IMemberRepository.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Repositories\\IMemberRepository.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Repositories\\IMemberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:39:03.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Repositories\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Repositories\\IEventRepository.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Repositories\\IEventRepository.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Repositories\\IEventRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:38:05.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "solid-analysis.md",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\docs\\solid-analysis.md",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\docs\\solid-analysis.md",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\docs\\solid-analysis.md",
+              "RelativeToolTip": "Ch02.Refactor\\docs\\solid-analysis.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-15T08:28:50.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IClubRepository.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Repositories\\IClubRepository.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Repositories\\IClubRepository.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Repositories\\IClubRepository.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Repositories\\IClubRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:25:41.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClubManager.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\ClubManager.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\ClubManager.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\ClubManager.cs",
+              "RelativeToolTip": "Ch02.Refactor\\ClubManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:16:55.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Member.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Domain\\Member.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Domain\\Member.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Domain\\Member.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Domain\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:16:31.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Domain\\Event.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Domain\\Event.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Domain\\Event.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Domain\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:13:25.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Club.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Domain\\Club.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Domain\\Club.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Domain\\Club.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Domain\\Club.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:08:12.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Program.cs",
+              "RelativeDocumentMoniker": "Ch02.Refactor\\Program.cs",
+              "ToolTip": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor\\Program.cs",
+              "RelativeToolTip": "Ch02.Refactor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T01:58:36.043Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
