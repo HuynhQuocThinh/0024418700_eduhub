@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NZO6HrB/E2E=",
+  "dgSpecHash": "CE9fXZiGbRE=",
   "success": true,
-  "projectFilePath": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\Ch02.Refactor.Tests\\Ch02.Refactor.Tests.csproj",
+  "projectFilePath": "D:\\HocTap\\HDT\\IN4211-ch02-solid-patterns-git\\starter\\starter\\Ch02.Refactor.Tests\\Ch02.Refactor.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\QUOC THINH\\.nuget\\packages\\microsoft.codecoverage\\17.14.1\\microsoft.codecoverage.17.14.1.nupkg.sha512",
     "C:\\Users\\QUOC THINH\\.nuget\\packages\\microsoft.net.test.sdk\\17.14.1\\microsoft.net.test.sdk.17.14.1.nupkg.sha512",
